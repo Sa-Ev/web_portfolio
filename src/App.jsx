@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { LanguageProvider } from "@/context/LanguageContext";
 import Layout from "@/components/layout/Layout";
-import HomePage from "@/components/pages/HomePage.jsx";
+import HomePage from "@/components/pages/Homepage.jsx";
 import ProjectsPage from "@/components/pages/ProjectsPage.jsx";
 import WorkPage from "@/components/pages/WorkPage.jsx";
 import EducationPage from "@/components/pages/EducationPage.jsx";
