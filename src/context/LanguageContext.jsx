@@ -1,7 +1,7 @@
 import React, { createContext, useState, useContext } from "react";
-import enTranslations from "../i18n/en";
-import deTranslations from "../i18n/de";
-import ruTranslations from "../i18n/ru";
+import enTranslations from "@/i18n/en";
+import deTranslations from "@/i18n/de";
+import ruTranslations from "@/i18n/ru";
 
 const translations = {
   en: enTranslations,

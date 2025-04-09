@@ -1,14 +1,14 @@
 import React from "react";
-import { useLanguage } from "../../context/LanguageContext";
-import { projects } from "../../data/projects";
-import { Card, CardContent } from "../ui/Card";
-import Button from "../ui/Button";
+import { useLanguage } from "@/context/LanguageContext";
+import { projects } from "@/data/projects";
+import { Card, CardContent } from "@/components/ui/Card";
+import Button from "@/components/ui/Button";
 import { Github } from "lucide-react";
 
 // Импортируем изображения проектов
-import project1Image from "../../assets/images/project1.jpg";
-import project2Image from "../../assets/images/project2.jpg";
-import project3Image from "../../assets/images/project3.jpg";
+import project1Image from "@/assets/images/project1.jpg";
+import project2Image from "@/assets/images/project2.jpg";
+import project3Image from "@/assets/images/project3.jpg";
 
 // Карта изображений проектов
 const projectImages = {

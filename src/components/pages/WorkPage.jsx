@@ -1,6 +1,6 @@
 import React from "react";
-import { useLanguage } from "../../context/LanguageContext";
-import { work } from "../../data/work";
+import { useLanguage } from "@/context/LanguageContext";
+import { work } from "@/data/work";
 
 const WorkPage = () => {
   const { t } = useLanguage();

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useLanguage } from "../../context/LanguageContext";
-import ProfileImage from "./ProfileImage";
+import { useLanguage } from "@/context/LanguageContext";
+import ProfileImage from "@/assets/images/ProfileImage";
 
 const Header = () => {
   const { t, language, setLanguage } = useLanguage();
