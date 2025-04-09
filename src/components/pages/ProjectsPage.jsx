@@ -12,9 +12,9 @@ import project3Image from "@/assets/images/project3.JPG";
 
 // Карта изображений проектов
 const projectImages = {
-  "project1.jpeg": project1Image,
-  "project2.jpeg": project2Image,
-  "project3.jpeg": project3Image,
+  "project1.jpg": project1Image,
+  "project2.JPG": project2Image,
+  "project3.JPG": project3Image,
 };
 
 const ProjectsPage = () => {
