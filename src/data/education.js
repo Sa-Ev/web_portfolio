@@ -4,14 +4,14 @@ export const education = [
     period: "04.2024 - 03.2025",
     institution: "ITCareer Hub",
     specialty: "WEB-Entwickler",
-    certificate: "itcareer.jpeg",
+    certificate: "itcareer.jpg",
   },
   {
     id: 2,
     period: "11.2019 - 01.2020",
     institution: "Future Training & Consulting GmbH",
     specialty: "Grundlagen der Programmierung mit VB.Net",
-    certificate: "futuretraining.jpeg",
+    certificate: "futuretraining.jpg",
   },
   {
     id: 3,
@@ -27,21 +27,21 @@ export const education = [
     institution:
       "TRAINICO Training und Ausbildung Cooperation in Berlin-Brandenburg GmbH",
     specialty: "Fluggerätbau",
-    certificate: "trainico.jpeg",
+    certificate: "trainico.jpg",
   },
   {
     id: 5,
     period: "12.1993 - 05.1994",
     institution: "Berlitz Sprachschule in Berlin Deutsch für Akademiker",
     specialty: "Abschluß. Mittelstufe 2",
-    certificate: "berlitz.jpeg",
+    certificate: "berlitz.jpg",
   },
   {
     id: 6,
     period: "1981 - 1987",
     institution: "Institut für Ingenieure der Zivilluftfahrt in Kiew",
     specialty: "Diplom-Ingenieur: Elektrotechnik, Nachrichtentechnik",
-    certificate: "diplom.jpeg",
+    certificate: "diplom.jpg",
   },
   {
     id: 7,

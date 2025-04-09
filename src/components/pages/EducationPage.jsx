@@ -3,20 +3,13 @@ import { useLanguage } from "../../context/LanguageContext";
 import { education } from "../../data/education";
 import Button from "../ui/Button";
 
-// Импортируем сертификаты напрямую
-import itcareerCert from "../../assets/certificates/itcareer.jpg";
-import futuretrainingCert from "../../assets/certificates/futuretraining.jpg";
-import berlitzCert from "../../assets/certificates/berlitz.jpg";
-import diplomCert from "../../assets/certificates/diplom.jpg";
-import trainicoCert from "../../assets/certificates/trainico.jpg";
-
-// Создаем объект для связи имен файлов с импортами
-const certificateImports = {
-  "itcareer.jpeg": itcareerCert,
-  "futuretraining.jpeg": futuretrainingCert,
-  "berlitz.jpeg": berlitzCert,
-  "diplom.jpeg": diplomCert,
-  "trainico.jpeg": trainicoCert,
+// Определение пути к сертификатам:
+const certificateUrls = {
+  "itcareer.jpg": "/certificates/itcareer.jpg",
+  "futuretraining.jpg": "/certificates/futuretraining.jpg",
+  "berlitz.jpg": "/certificates/berlitz.jpg",
+  "diplom.jpg": "/certificates/diplom.jpg",
+  "trainico.jpg": "/certificates/trainico.jpg",
 };
 
 const EducationPage = () => {
@@ -97,7 +90,7 @@ const EducationPage = () => {
             <div className="bg-white p-2 rounded border border-gray-200">
               <img
                 src={
-                  certificateImports[selectedCertificate] ||
+                  certificateUrls[selectedCertificate] ||
                   "https://via.placeholder.com/600x400?text=Изображение+не+найдено"
                 }
                 alt="Certificate"
