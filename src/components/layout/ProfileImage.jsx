@@ -1,6 +1,6 @@
 // ProfileImage.jsx (безопасная версия)
 import React from "react";
-import profilePhoto from "@/assets/images/profile-photo.jpg"; // Добавьте свое фото в этот каталог
+import profilePhoto from "@/assets/images/profile-photo.jpg";
 
 const ProfileImage = () => {
   return (
