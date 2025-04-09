@@ -7,8 +7,8 @@ import { Github } from "lucide-react";
 
 // Импортируем изображения проектов
 import project1Image from "@/assets/images/project1.jpg";
-import project2Image from "@/assets/images/project2.jpg";
-import project3Image from "@/assets/images/project3.jpg";
+import project2Image from "@/assets/images/project2.JPG";
+import project3Image from "@/assets/images/project3.JPG";
 
 // Карта изображений проектов
 const projectImages = {
