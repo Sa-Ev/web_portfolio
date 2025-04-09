@@ -4,12 +4,16 @@ export const projects = [
     title: "HTML/CSS Project",
     tech: "HTML, CSS, JavaScript",
     image: "project1.jpeg",
+    githubUrl: "https://github.com/Sa-Ev/Event_Finder",
+    gitHubText: "Event_Finder",
   },
   {
     id: 2,
     title: "Pet Shop E-commerce",
     tech: "HTML, CSS, JavaScript, React",
     image: "project2.jpeg",
+    githubUrl: "https://github.com/Sa-Ev/Pet-Shop-Fullstack",
+    gitHubText: "Pet-Shop-Fullstack",
   },
   {
     id: 3,
