@@ -14,11 +14,11 @@ const Sidebar = () => {
         <div className="w-full h-0.5 bg-gray-600 mb-4"></div>
         <div className="flex items-center mb-2">
           <Phone size={16} className="mr-2" />
-          <span>+123 456789</span>
+          <span>+4915787107875</span>
         </div>
         <div className="flex items-center">
           <Mail size={16} className="mr-2" />
-          <span>user@mail.com</span>
+          <span>sa-ev@gmx.net</span>
         </div>
       </section>
 
