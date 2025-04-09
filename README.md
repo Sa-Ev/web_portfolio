@@ -1,12 +1,25 @@
-# React + Vite
+# Веб-портфолио Frontend-разработчика
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Персональное веб-портфолио, демонстрирующее профессиональные навыки и опыт работы в сфере веб-разработки.
 
-Currently, two official plugins are available:
+## Описание проекта
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Это многоязычное веб-приложение (русский, немецкий, английский), разработанное на React и Vite с использованием Tailwind CSS для стилизации. Портфолио включает информацию о профессиональных навыках, проектах, опыте работы, образовании и контактных данных.
 
-## Expanding the ESLint configuration
+## Функциональности
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Многоязычный интерфейс (русский, немецкий, английский)
+- Адаптивный дизайн (мобильные и десктопные устройства)
+- Разделы:
+  - Главная страница с общей информацией
+  - Страница проектов с ссылками на GitHub
+  - Страница опыта работы
+  - Страница образования с сертификатами
+
+## Технологии
+
+- **Frontend**: React, Vite
+- **Стилизация**: Tailwind CSS
+- **Маршрутизация**: React Router
+- **Иконки**: Lucide React
+- **Многоязычность**: Контекст React
