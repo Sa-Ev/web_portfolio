@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { LanguageProvider } from "./context/LanguageContext";
-import Layout from "./components/layout/Layout";
-import HomePage from "./components/pages/HomePage";
-import ProjectsPage from "./components/pages/ProjectsPage";
-import WorkPage from "./components/pages/WorkPage";
-import EducationPage from "./components/pages/EducationPage";
+import { LanguageProvider } from "@/context/LanguageContext";
+import Layout from "@/components/layout/Layout";
+import HomePage from "@/components/pages/HomePage";
+import ProjectsPage from "@/components/pages/ProjectsPage";
+import WorkPage from "@/components/pages/WorkPage";
+import EducationPage from "@/components/pages/EducationPage";
 import "./index.css";
 
 function App() {
